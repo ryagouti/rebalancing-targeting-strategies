@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\begin{document}
+\begin{table}[h]
+	\centering
+	\small
+	\resizebox{\textwidth}{!}{%
+	\begin{tabular}{c|ccc|ccc}
+		\hline
+		& \multicolumn{3}{c|}{\(\alpha.RTS\)} & \multicolumn{3}{c}{\(\alpha.RTS-FE\)} \\
+		$(p_0, p_1, p_2, p_3)$
+		& Tymofyeyev & Neyman & RSIHR
+		& Tymofyeyev & Neyman & RSIHR \\
+		\hline
+		(0.1, 0.1, 0.1, 0.1) & 0.40\% & 1.00\% & 1.10\% & 0.10\% & 1.70\% & 1.00\% \\
+		(0.3, 0.3, 0.3, 0.3) & 1.10\% & 5.50\% & 4.70\% & 1.60\% & 5.50\% & 5.60\% \\
+		(0.5, 0.5, 0.5, 0.5) & 1.80\% & 4.90\% & 5.90\% & 1.60\% & 5.30\% & 5.10\% \\
+		(0.7, 0.7, 0.7, 0.7) & 1.10\% & 5.20\% & 6.20\% & 1.60\% & 5.50\% & 4.90\% \\
+		(0.9, 0.9, 0.9, 0.9) & 0.40\% & 1.00\% & 3.00\% & 0.10\% & 1.70\% & 2.80\% \\
+		\hline
+		(0.9, 0.8, 0.7, 0.6) & 82.50\% & 85.90\% & 89.40\% & 80.60\% & 84.70\% & 89.10\% \\
+		(0.8, 0.7, 0.5, 0.4) & 95.60\% & 98.40\% & 98.20\% & 95.90\% & 98.40\% & 98.40\% \\
+		(0.7, 0.6, 0.4, 0.2) & 97.80\% & 99.90\% & 99.50\% & 98.30\% & 99.70\% & 99.80\% \\
+		(0.5, 0.4, 0.3, 0.2) & 75.70\% & 81.60\% & 78.60\% & 75.90\% & 79.80\% & 78.30\% \\
+		(0.4, 0.3, 0.2, 0.1) & 82.30\% & 83.90\% & 83.40\% & 83.30\% & 85.20\% & 84.20\% \\
+		\hline
+	\end{tabular}
+}
+	\caption{Type-1 error (\%) for different target allocations with fixed targeting design (Distance), 1000 simulations, n = 200}
+	\label{tab:fixed-targeting}
+\end{table}\end{document}
