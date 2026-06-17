@@ -4,6 +4,7 @@ This repository contains the implementation and simulation code accompanying the
 
 **On Response-Adaptive Targeting Strategies for Multi-Treatment Experiments**
 *Redouane Yagouti, Rémy Degenne, and Emilie Kaufmann*
+https://arxiv.org/abs/2606.17777
 
 ## Overview
 
